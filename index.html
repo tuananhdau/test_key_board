@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chợ Phím Cơ Giá Rẻ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="/style/index.css">
 </head>
 <body>
@@ -17,7 +17,13 @@
                 <img src="/style/img/logo.png" alt="logo">
             </div>
             <div class="user">
-                <button type="submit" name="submit">  <i class="fa-solid fa-user"></i>Login</button>
+                <button type="submit" name="submit"><i class="fa-solid fa-user"></i>Login</button>
+            </div>
+            <div class="cart">
+                <button id="cartBtn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="cartCount">0</span>
+                </button>
             </div>
         </div>
         <div class="nav-menu">
@@ -54,92 +60,7 @@
     </div>
     <div class="product">
         <h2 class="underline-title">Bàn Phím Cơ</h2>
-        <div class="product-list">
-            <div class="product-item">
-                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/a/gaming_8_33_.png" alt="Bàn phím cơ 1">
-                <h3>Aula F75</h3>
-                <p>Giá: 1.000.000 VNĐ</p>
-                <button type="submit">Mua Hang</button>
-            </div>
-            <div class="product-item">
-                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/a/gaming_8_51_.png" alt="Bàn phím cơ 2">
-                <h3>Dareu EK87</h3>
-                <p>Giá: 1.200.000 VNĐ</p>
-                <button type="submit">Mua Hang</button>
-            </div>
-                <div class="product-item">
-                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/b/a/ban-phim-co-khong-day-dareu-ek87-pro-rbg-black-golden_1__1.png" alt="Bàn phím cơ 2">
-                <h3>Dareu EK87 Pro</h3>
-                <p>Giá: 1.200.000 VNĐ</p>
-                <button type="submit">Mua Hang</button>
-            </div>
-                <div class="product-item">
-                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/a/gaming_8_8__1.png" alt="Bàn phím cơ 2">
-                <h3>Aula AU75</h3>
-                <p>Giá: 1.200.000 VNĐ</p>
-                <button type="submit">Mua Hang</button>
-            </div>
-            <!-- Thêm các sản phẩm khác tương tự -->
-    </div>
-    </div>
-        <div class="product">
-        <h2 class="underline-title-chuot">Chuột</h2>
-        <div class="product-list">
-            <div class="product-item">
-                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/h/chuot-choi-game-khong-day-dareu-em911x-rgb-1.png" alt="Bàn phím cơ 1">
-                <h3>Aula F75</h3>
-                <p>Giá: 1.000.000 VNĐ</p>
-                <button type="submit">Mua Hang</button>
-            </div>
-            <div class="product-item">
-                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_61_1_.png" alt="Bàn phím cơ 2">
-                <h3>Dareu EK87</h3>
-                <p>Giá: 1.200.000 VNĐ</p>
-                <button type="submit">Mua Hang</button>
-            </div>
-                <div class="product-item">
-                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_51_2_.png" alt="Bàn phím cơ 2">
-                <h3>Dareu EK87 Pro</h3>
-                <p>Giá: 1.200.000 VNĐ</p>
-                <button type="submit">Mua Hang</button>
-            </div>
-                <div class="product-item">
-                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/h/chuot-khong-day-logitech-b175.png" alt="Bàn phím cơ 2">
-                <h3>Aula AU75</h3>
-                <p>Giá: 1.200.000 VNĐ</p>
-                <button type="submit">Mua Hang</button>
-            </div>
-            <!-- Thêm các sản phẩm khác tương tự -->
-    </div>
-    </div>
-    <div class="product">
-    <h2 class="underline-title-switch">Switch</h2>
-    <div class="product-list">
-        <div class="product-item">
-            <img src="https://bizweb.dktcdn.net/thumb/grande/100/329/122/products/bo-45-switch-co-dareu-dream-1.jpg?v=1741142611150" alt="Switch Akko Cream Blue">
-            <h3>Dareu Dream</h3>
-            <p>Giá: 250.000 VNĐ/hộp</p>
-            <button type="submit">Mua Hàng</button>
-        </div>
-        <div class="product-item">
-            <img src="https://bizweb.dktcdn.net/thumb/grande/100/329/122/products/bo-45-switch-co-akko-botany-switch-38-5gf-5-pin-linear-sw-01.jpg?v=1741142674140" alt="Switch Akko Cream Yellow">
-            <h3>Akko Botany</h3>
-            <p>Giá: 250.000 VNĐ/hộp</p>
-            <button type="submit">Mua Hàng</button>
-        </div>
-        <div class="product-item">
-            <img src="https://bizweb.dktcdn.net/thumb/grande/100/329/122/products/bo-45-switch-co-akko-dracula-switch-40-5gf-5-pin-linear-sw-07.jpg?v=1741142671853" alt="Switch Akko Silver">
-            <h3>Akko Dracula</h3>
-            <p>Giá: 270.000 VNĐ/hộp</p>
-            <button type="submit">Mua Hàng</button>
-        </div>
-        <div class="product-item">
-            <img src="https://bizweb.dktcdn.net/thumb/grande/100/329/122/products/bo-45-switch-co-akko-fairy-switch-silent-50-5gf-5-pin-linear-sw-10.jpg?v=1741142667727" alt="Switch Akko Lavender">
-            <h3>Akko Fairy</h3>
-            <p>Giá: 270.000 VNĐ/hộp</p>
-            <button type="submit">Mua Hàng</button>
-        </div>
-    </div>
+        <div class="product-list"></div>
     </div>
     <div class="newsletter-section">
         <h2>Nhận khuyến mãi mới nhất</h2>
@@ -149,31 +70,80 @@
         </form>
     </div>
     <footer class="footer">
-    <div class="footer-container">
-        <div class="footer-logo">
-            <img src="/style/img/logo.png" alt="Chợ Phím Cơ Giá Rẻ" />
-            <p>Chợ Phím Cơ Giá Rẻ - Địa chỉ tin cậy cho dân chơi phím!</p>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="/style/img/logo.png" alt="Chợ Phím Cơ Giá Rẻ" />
+                <p>Chợ Phím Cơ Giá Rẻ - Địa chỉ tin cậy cho dân chơi phím!</p>
+            </div>
+            <div class="footer-info">
+                <h2>Liên hệ</h2>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> 0889 257 264</li>
+                    <li><i class="fa-solid fa-envelope"></i> hotro@phimco.vn</li>
+                    <li><i class="fa-solid fa-location-dot"></i> 123 Đường ABC, Quận 1, TP.HCM</li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h2>Kết nối</h2>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
         </div>
-        <div class="footer-info">
-            <h2>Liên hệ</h2>
-            <ul>
-                <li><i class="fa-solid fa-phone"></i> 0889 257 264</li>
-                <li><i class="fa-solid fa-envelope"></i> hotro@phimco.vn</li>
-                <li><i class="fa-solid fa-location-dot"></i> 123 Đường ABC, Quận 1, TP.HCM</li>
-            </ul>
+        <div class="footer-bottom">
+            &copy; 2025 Chợ Phím Cơ Giá Rẻ. All rights reserved.
         </div>
-        <div class="footer-social">
-            <h2>Kết nối</h2>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    </footer>
+    <!-- Popup chi tiết sản phẩm -->
+    <div class="product-popup" id="productPopup">
+        <div class="popup-content">
+            <span class="close-popup" id="closePopup">&times;</span>
+            <img id="popupImg" src="" alt="Ảnh sản phẩm">
+            <h3 id="popupTitle"></h3>
+            <p id="popupPrice"></p>
         </div>
     </div>
-    <div class="footer-bottom">
-        &copy; 2025 Chợ Phím Cơ Giá Rẻ. All rights reserved.
+    <!-- Popup giỏ hàng -->
+    <div class="cart-popup" id="cartPopup">
+        <div class="cart-content">
+            <span class="close-cart" id="closeCart">&times;</span>
+            <h3>Giỏ hàng</h3>
+            <ul id="cartItems"></ul>
+            <div class="cart-total">Tổng: <span id="cartTotal">0 VNĐ</span></div>
+        </div>
     </div>
-</footer>
+    <!-- Popup đăng nhập -->
+    <div class="login-popup" id="loginPopup">
+        <div class="login-content">
+            <span class="close-login" id="closeLogin">&times;</span>
+            <h3>Đăng nhập</h3>
+            <form id="loginForm">
+                <input type="text" placeholder="Tên đăng nhập" required>
+                <input type="password" placeholder="Mật khẩu" required>
+                <button type="submit">Đăng nhập</button>
+            </form>
+        </div>
+    </div>
+    <!-- Popup đặt hàng -->
+    <div class="order-popup" id="orderPopup">
+        <div class="order-content">
+            <span class="close-order" id="closeOrder">&times;</span>
+            <h3>Thông tin đặt hàng</h3>
+            <form id="orderForm">
+                <input type="text" id="orderName" placeholder="Họ tên" required>
+                <input type="tel" id="orderPhone" placeholder="Số điện thoại" required>
+                <input type="text" id="orderAddress" placeholder="Địa chỉ nhận hàng" required>
+                <select id="orderPayment" required>
+                    <option value="">Chọn hình thức thanh toán</option>
+                    <option value="cod">Thanh toán khi nhận hàng (COD)</option>
+                    <option value="bank">Chuyển khoản ngân hàng</option>
+                </select>
+                <button type="submit">Xác nhận đặt hàng</button>
+            </form>
+        </div>
+    </div>
     <script>
+    // Banner slider
     let currentSlide = 0;
     const slides = document.querySelectorAll('.banner-slider .slide');
     function showSlide(index) {
@@ -185,8 +155,151 @@
         currentSlide = (currentSlide + 1) % slides.length;
         showSlide(currentSlide);
     }
-    setInterval(nextSlide, 3000); // 3 giây chuyển slide
+    setInterval(nextSlide, 3000);
     window.onload = () => showSlide(currentSlide);
+
+    // Hiển thị sản phẩm từ localStorage hoặc mặc định
+    function showProducts() {
+        const products = JSON.parse(localStorage.getItem('products')) || [
+            { name: 'Aula F75', price: '1.000.000 VNĐ', type: 'Bàn phím cơ' },
+            { name: 'Dareu EK87', price: '1.200.000 VNĐ', type: 'Bàn phím cơ' },
+            { name: 'Akko Botany', price: '250.000 VNĐ/hộp', type: 'Switch' }
+        ];
+        const productList = document.querySelector('.product-list');
+        if (!productList) return;
+        productList.innerHTML = '';
+        products.forEach((p, idx) => {
+            productList.innerHTML += `
+                <div class="product-item" data-idx="${idx}">
+                    <img src="https://via.placeholder.com/180x140?text=${encodeURIComponent(p.name)}" alt="${p.name}">
+                    <h3>${p.name}</h3>
+                    <p>Giá: ${p.price}</p>
+                    <button type="button" class="add-to-cart-btn">Mua Hàng</button>
+                </div>
+            `;
+        });
+
+        // Sự kiện click vào sản phẩm để xem chi tiết
+        document.querySelectorAll('.product-item').forEach(item => {
+            item.addEventListener('click', function(e) {
+                // Nếu click vào nút "Mua Hàng" thì không mở popup chi tiết
+                if (e.target.classList.contains('add-to-cart-btn')) return;
+                const img = this.querySelector('img').src;
+                const title = this.querySelector('h3').innerText;
+                const price = this.querySelector('p').innerText;
+                document.getElementById('popupImg').src = img;
+                document.getElementById('popupTitle').innerText = title;
+                document.getElementById('popupPrice').innerText = price;
+                document.getElementById('productPopup').classList.add('active');
+            });
+        });
+
+        // Sự kiện click nút "Mua Hàng" để mở popup đặt hàng
+        document.querySelectorAll('.add-to-cart-btn').forEach((btn, idx) => {
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                document.getElementById('orderPopup').classList.add('active');
+                window.selectedProduct = products[idx];
+            });
+        });
+    }
+    showProducts();
+
+    // Đóng popup chi tiết sản phẩm
+    document.getElementById('closePopup').onclick = function() {
+        document.getElementById('productPopup').classList.remove('active');
+    };
+    document.getElementById('productPopup').onclick = function(e) {
+        if (e.target === this) this.classList.remove('active');
+    };
+
+    // Xử lý giỏ hàng
+    let cart = [];
+    function addToCart(product) {
+        const price = parseInt(product.price.replace(/\D/g, ''));
+        let found = cart.find(i => i.title === product.name);
+        if (found) {
+            found.qty += 1;
+        } else {
+            cart.push({ img: '', title: product.name, price: price, qty: 1 });
+        }
+        updateCart();
+    }
+    function updateCart() {
+        document.getElementById('cartCount').innerText = cart.reduce((a, b) => a + b.qty, 0);
+        const cartItems = document.getElementById('cartItems');
+        cartItems.innerHTML = '';
+        let total = 0;
+        cart.forEach(item => {
+            total += item.price * item.qty;
+            cartItems.innerHTML += `
+                <li>
+                    <span>${item.title} x${item.qty}</span>
+                    <span>${item.price.toLocaleString()} VNĐ</span>
+                </li>
+            `;
+        });
+        document.getElementById('cartTotal').innerText = total.toLocaleString() + ' VNĐ';
+        if (cart.length === 0) {
+            cartItems.innerHTML = '<li>Chưa có sản phẩm nào.</li>';
+            document.getElementById('cartTotal').innerText = '0 VNĐ';
+        }
+    }
+
+    // Mở/đóng popup giỏ hàng
+    document.getElementById('cartBtn').onclick = function(e) {
+        e.stopPropagation();
+        document.getElementById('cartPopup').classList.add('active');
+    };
+    document.getElementById('closeCart').onclick = function() {
+        document.getElementById('cartPopup').classList.remove('active');
+    };
+    document.getElementById('cartPopup').onclick = function(e) {
+        if (e.target === this) this.classList.remove('active');
+    };
+
+    // Xử lý popup đăng nhập
+    document.querySelector('.user button').onclick = function(e) {
+        e.preventDefault();
+        document.getElementById('loginPopup').classList.add('active');
+    };
+    document.getElementById('closeLogin').onclick = function() {
+        document.getElementById('loginPopup').classList.remove('active');
+    };
+    document.getElementById('loginPopup').onclick = function(e) {
+        if (e.target === this) this.classList.remove('active');
+    };
+    document.getElementById('loginForm').onsubmit = function(e) {
+        e.preventDefault();
+        const username = this.querySelector('input[type="text"]').value.trim();
+        const password = this.querySelector('input[type="password"]').value.trim();
+        if (username === 'admin' && password === 'admin') {
+            window.location.href = 'admin.html';
+        } else {
+            window.location.href = 'index.html';
+        }
+    };
+
+    // Đóng popup đặt hàng
+    document.getElementById('closeOrder').onclick = function() {
+        document.getElementById('orderPopup').classList.remove('active');
+    };
+    document.getElementById('orderPopup').onclick = function(e) {
+        if (e.target === this) this.classList.remove('active');
+    };
+    // Xử lý submit form đặt hàng
+    document.getElementById('orderForm').onsubmit = function(e) {
+        e.preventDefault();
+        const name = document.getElementById('orderName').value.trim();
+        const phone = document.getElementById('orderPhone').value.trim();
+        const address = document.getElementById('orderAddress').value.trim();
+        const payment = document.getElementById('orderPayment').value;
+        alert(
+            `Đặt hàng thành công!\n\nSản phẩm: ${window.selectedProduct ? window.selectedProduct.name : ''}\nTên: ${name}\nSĐT: ${phone}\nĐịa chỉ: ${address}\nThanh toán: ${payment === 'cod' ? 'COD' : 'Chuyển khoản'}`
+        );
+        document.getElementById('orderPopup').classList.remove('active');
+        this.reset();
+    };
     </script>
 </body>
 </html>
